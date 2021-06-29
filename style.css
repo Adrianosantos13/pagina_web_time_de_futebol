@@ -1,0 +1,67 @@
+body {
+    background-image: url(../Racing/_futebol_fundo.jpg)
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+.email-login {
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px
+   }
+
+.navegacao {
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    color: rgb(186, 243, 186); 
+    display: flex
+}
+
+.historia {
+    color:white;
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    justify-content: space-around
+}
+
+.torneios {
+    color:white;
+    width: 500px;
+    height: 500px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border: 1px solid white;
+    justify-content: space-around
+}
+
+.pulse {
+    border: none;
+    color: green;
+    border: 2px solid;
+    transition: 0.25s;
+}
+
+.pulse:hover, .pulse:focus {
+    color: black;
+    border-color: greenyellow;
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+    animation: pulsar 1s;
+}
+
+@keyframes pulsar {
+    0% {
+        box-shadow: 0 0 0 0 greenyellow;
+    }
+}
