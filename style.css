@@ -11,6 +11,8 @@
 
 body {
     background-image: url(../Pagina_time_futebol/_futebol_fundo.jpg);
+    width: 100%;
+    height: 100%
 }
 
 .email-login {
