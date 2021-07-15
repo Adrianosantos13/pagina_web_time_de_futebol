@@ -23,12 +23,13 @@ body{
 }
 
 .email-login {
-    position:relative;
-    text-align: right;
-    right: auto;
+    text-align: left;
+    right: 2px;
     top: 5px;
-    display:inline-flex;
-    flex-direction: row-reverse;  
+}
+
+.escudo{
+    max-width: 50px;
 }
 
 .navegacao ul li{
@@ -52,6 +53,8 @@ body{
     margin-right: 5px;
     margin-bottom: 2px;
     margin-left: 20px;
+    padding: 5px;
+    background-color: green;
 }
 
 .torneios {
@@ -61,6 +64,7 @@ body{
     margin-right: 2px;
     margin-bottom: 2px;
     margin-left: 10px;
+    background-color: green;
  }
 
 h1{
