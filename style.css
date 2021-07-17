@@ -8,14 +8,26 @@
     font-family: "Popins", sans-serif;
 }
 
+
 .header{
+    height: auto;
     background-color: black;
-    width: auto;
-    height: 10vh;
+    margin-bottom: 5px;
 }
 
-body{
+.imagem-fundo{
     background-image: url("https://images5.alphacoders.com/481/481998.jpg");
+}
+
+.escudo{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    margin-left: 150px;
 }
 
 .blocos{
@@ -24,27 +36,37 @@ body{
 }
 
 .email-login {
-    text-align: left;
-    right: 2px;
-    top: 5px;
+    right: 10px;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    display: inline-block;   
 }
 
-.escudo{
-    max-width: 50px;
+form input {
+    border: green solid 2px;
+    height: 23px;
+    margin-bottom: 0px;
+    margin-right: 0px;
 }
 
+.navegacao {
+    position: relative;
+    margin-left: 300px;
+    margin-top: 0px;
+    display: inline-block;
+
+}
 .navegacao ul li{
-    display: inline-flex;
-    flex-direction:row-reverse;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    display: inline-block;
     padding: 2px;
     border-radius: 20%;
     background: rgb(21, 21, 143);
     font: "Thin 100";
     color: white;
     border: green solid 2px;
+    
 }
 
 .historia {
@@ -75,17 +97,12 @@ h1{
     margin-left: 10px;
 }
 
-form input {
-    border: green solid 2px;
-    height: 23px;
-}
-
 h2{
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 0;
     margin-left: 20px;
-    background-color: #008d44aa
+
 }
 .pulse {
     border: none;
@@ -106,4 +123,9 @@ h2{
     0% {
         box-shadow: 0 0 0 0 greenyellow;
     }
+}
+
+.rodape{
+    height:200px;
+    background-color:rgb(16, 31, 16);
 }
