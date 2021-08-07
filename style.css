@@ -8,29 +8,40 @@
     font-family: "Popins", sans-serif;
 }
 
+p{
+    color: white;
+    font-style:italic;
+}
+
 .header{
     height: auto;
-    background-color: black;
-    margin-bottom: 2%;
+   
 }
 
 .conteiner{
-    display: inline-block;
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.conteiner2{
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .imagem-fundo{
     background-image: url("https://images5.alphacoders.com/481/481998.jpg");
 }
 
-.escudo{
-    display: inline-block;
-  
-}
-
 .escudo img{
     height: 10vh;
     width: 15;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .blocos{
@@ -38,50 +49,56 @@
     flex-direction: row;   
 }
 
+.secao{
+    margin: 0.5%;
+    display: flex;
+}
 .email-login {
     display: inline-block;  
+    margin-left: 1%;
+    font-size:80%;
+    
 }
 
 form input {
-    border: green solid 2px;
+    border: green solid 0.2em;
     height: 1.77em;
     margin: 0;
 }
 
 .navegacao {
-    margin-left: 20em;
     display: inline-block;
+    margin-right: 1.5%;
 }
 
 .navegacao ul li{
     display: inline-block;
     padding: 0.2em;
-    border-radius: 20%;
+    border-radius: 5%;
     background: rgb(21, 21, 143);
     font: "Thin 100";
     color: white;
     border: green solid 0.15em;
-    
+    font-size: 80%;
+}
+.navegacao a{
+    color: white;
+    text-decoration: none;
 }
 
 .historia {
     width: 50vh;
-    height: 50vh;
-    margin-top: 2%;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    margin-left: 5%;
+    height: 60vh;
     padding: 1em;
+    margin: 2%;
     background-color:#008d44aa;
 }
 
 .torneios {
     width: 50vh;
-    height: 50vh;
-    margin-top: 2%;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    margin-left: 5%;
+    height: 60vh;
+    padding: 1em;
+    margin: 2%;
     background-color: #008d44aa;
  }
 
@@ -90,8 +107,9 @@ h1{
 }
 
 h2{
-    margin: 1.5%;
+    margin: 5%;
 }
+
 .pulse {
     border: none;
     color: green;
@@ -114,6 +132,6 @@ h2{
 }
 
 .rodape{
-    height:200px;
+    height:15vh;
     background-color:rgb(16, 31, 16);
 }
